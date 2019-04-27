@@ -1,0 +1,109 @@
+body {
+	background-image: url(images/jd_logo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50px 50px;
+	background-color: #E6EAE9;
+}
+
+body,.tableSettings,.validationError {
+	font: normal 10px auto "Trebuchet MS", Verdana, Arial, Helvetica,
+		sans-serif;
+	color: #4f6b72;
+	/*background: #E6EAE9;*/
+}
+
+.table,.table.TR,.tableSettings,.resultTable {
+	text-align: center;
+	align: center;
+	/*border: 1px #000000 solid;*/
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 0px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tableSettings {
+	width: 60%;
+}
+
+.resultTable {
+	width: 95%;
+}
+
+.tableSettings TD INPUT {
+	width: 100%;
+	float: left;
+}
+
+.tableSettings TD.Label {
+	vertical-align: middle;
+	background: #CAE8EA;
+	width: 20%;
+}
+
+.tableSettings TD.Input {
+	vertical-align: middle;
+	background: #CAE8EA;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA;
+}
+
+th.alt {
+	vertical-align: middle;
+	background: #99CCCC;
+}
+
+td {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.validationError {
+	color: #CC0000;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.alertGreen {
+	background-color: #CCFFCC;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+}
+
+.alertYellow {
+	background-color: #FFFF99;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+}
+
+.alertRed {
+	background-color: #990000;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+}

@@ -1,0 +1,90 @@
+table.alerts
+{ text-align: center;
+font-family: Verdana;
+font-weight: normal;
+font-size: 11px;
+color: #404040;
+width: 260px;
+background-color: #fafafa;
+#border: 1px #d79900 solid;
+border: 1px #000000 solid;
+border-collapse: collapse;
+border-spacing: 0px;}
+
+
+.alertHd
+{
+#border-bottom: 2px solid #000000;
+background-color: #fff2ba;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 9px;
+color: #000000;}
+
+.rowNumber
+{
+background-color: #FFCC66;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 9px;
+color: #000000;}
+
+.ids
+{
+background-color: #99CCFF;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 9px;
+color: #000000;}
+
+.values
+{
+background-color: #fafafa;
+text-align: center;
+font-family: Verdana;
+font-size: 9px;
+color: #000000;}
+
+.alertGreen
+{
+background-color: #99CC00;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 10px;
+color: #000000;}
+
+.alertYellow
+{
+background-color: #FFFF99;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 10px;
+color: #000000;}
+
+.alertRed
+{
+background-color: #CC3300;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 10px;
+color: #FFFFFF;}
+
+.alertBod p
+{ text-align: left;
+font-family: Verdana, sans-serif, Arial;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+color: #000000;
+background-color: #fafafa;
+text-indent: -8px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+margin-bottom: 5px;}
