@@ -34,7 +34,7 @@
 	<table class="tableSettings">
 		<thead>
 			<tr>
-				<th class="alt" colspan='3'>Report Configuration</th>
+				<th class="alt" colspan='3'>- Report Configuration -</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -43,7 +43,7 @@
 				<td class="Label"><c:out value="DB Server 1" /></td>
 				<td class="Input"><form:select path="report.dbID1"
 					multiple="false" size="1" cssStyle="width: 100%;">
-					<form:options items="${model.dbs}" itemValue="id" />
+					<form:options items="${model.dbs}" itemValue="id" itemLabel="displayValue" />
 				</form:select></td>
 				<td class="Label"><form:errors path="report.dbID1"
 					cssClass="validationError" /></td>
@@ -53,7 +53,7 @@
 				<td class="Label"><c:out value="DB Server 2" /></td>
 				<td class="Input"><form:select path="report.dbID2"
 					multiple="false" size="1" cssStyle="width: 100%;">
-					<form:options items="${model.dbs}" itemValue="id" />
+					<form:options items="${model.dbs}" itemValue="id" itemLabel="displayValue" />
 				</form:select></td>
 				<td class="Label"><form:errors path="report.dbID2"
 					cssClass="validationError" /></td>
